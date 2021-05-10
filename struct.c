@@ -22,4 +22,5 @@ void print_data(struct create_my_data *p_name){
 void free_data(struct create_my_data *p_name){
     free(p_name->first_name);
     free(p_name->last_name);
+    free(p_name);
 };
